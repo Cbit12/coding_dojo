@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="Fname">First Name: *</label>
+        <input type="text" name="First Name: *" id="Fname"><br>
+        <label for="Lname">Last Name: *</label>
+        <input type="text" name="Last Name: *" id="Lname"><br>
+        <label for="email">Email Address: *</label>
+        <input type="email" name="Email Address: *" id="email"><br>
+        <label for="pw">Password: *</label>
+        <input type="password" name="Password: *" id="pw"><br>
+        <label for="confirmpw">Confirm Password: *</label>
+        <input type="password" name="Confirm Password: *" id="confirmpw"><br>
+        <label for="Bdate">Birthday: *</label>
+        <input type="date" name="Birthday: *" id="Bdate"><br>
+        <p>Gender identity:</p>
+            <input type="radio" name="Male" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="Female" id="female" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" name="Non-binary" id="Nbin" value="Non-binary">
+            <label for="Nbin">Non-binary</label>
+            <input type="radio" name="I prefer not to answer" id="NA" value="I prefer not to answer">
+            <label for="NA">I prefer not to answer</label>
+        <P>A short description about myself:</P>
+            <textarea name="A short description about myself:" id="desc" cols="30" rows="10"></textarea><br>
+        <label for="Flang">Favorite Language:</label>
+        <select name="Favorite language:" id="Flang">
+            <option value="Javascript">Javascript</option>
+            <option value="Phyton">Phyton</option>
+        </select><br>
+        <input type="checkbox" name="checkbox" id="chbox">
+        <label for="chbox">Yes, I would like to receive periodic email updates</label><br>
+        <input type="submit" value="Create Account"><br>
+        <p>* Indicates a required field</p>
+    </form>
+</body>
+</html>
