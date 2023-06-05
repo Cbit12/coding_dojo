@@ -1,9 +1,33 @@
-button {
-    background-color: whitesmoke;
-    border: 100px;
-    border-radius: 5px;
+.search {
+margin: 10px;
+font-weight: bold;
+color: rgb(17, 195, 159);
+background-color: rgb(241, 236, 236);
+border: 2px solid rgb(17, 195, 159);
+width: 150px;
+height: 30px;
+border-radius: 30px;
 }
 
-.verdeagua
+.plus{
+margin: 10px;
+font-weight: bold;
+font-size:x-large;
+color: white;
+background-color: rgb(17, 195, 159);
+border: 2px solid rgb(17, 195, 159);
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
 
-.box-shadow
+.create{
+margin: 10px;
+font-weight:lighter;
+color: white;
+background-color: rgb(53, 93, 225);
+border: 2px solid black;
+box-shadow: 3px 5px black;
+width: 170px;
+height: 30px;
+}
