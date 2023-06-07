@@ -1,0 +1,297 @@
+*{
+    /* outline: red dashed 1px; */
+    margin: 0px;
+    padding: 0px;
+}
+    
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation bar */
+
+.nav{
+    height: 50px;
+    background-color: rgb(62, 62, 62);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 190px;
+}
+    
+.nav-title{
+    color:white;
+}
+    
+.nav-links{
+    flex-grow: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 20px;  
+}
+
+.nav-links > ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.style-nav-links {
+    color:white;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+}
+    
+.btn{
+    background-color: rgb(64, 219, 219);
+    color: white;
+    font-weight: bold;
+    border: 2px solid rgb(64, 219, 219);
+    height: 30px;
+    width: 90px;
+}
+
+
+/* MAIN CONTENT:
+A) Personal info
+B) Connections info
+*/
+
+.main-content {
+    padding: 0px 170px;
+    display: flex;
+}
+
+/* A) Personal info 
+A1. ID Box
+A2. Education Box
+*/
+
+.personal-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+/* A1. ID Box */
+
+.grey-border {
+    border: 3px solid lightgray;
+}
+    
+.blue-header {
+    background-color: rgb(64, 219, 219);
+    height: 90px;
+}
+    
+.profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 30px;
+    height: 35px;
+}
+    
+.profile-pic > img{
+    height: 80px;
+    align-self: last baseline;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+}
+    
+.id-content {
+    padding: 30px;
+    padding-top: 5px;
+    margin: 0px 0px;
+}
+    
+.id-content >h2 {
+    margin-bottom: 10px;
+}
+    
+.location {
+    display: flex;
+    justify-content: start;
+    height: 15px;
+    margin-bottom: 15px;
+}
+    
+.location > img {
+    margin-right: 10px;
+}
+    
+.edit {
+    display: flex;
+    justify-content: start;
+    height: 15px;
+    margin-top: 15px;
+}
+    
+.edit > img {
+    margin-right: 8px;
+}
+
+/* A2. Education Box */
+
+.education{
+margin-top: 30px;
+}
+
+.title-educ{
+    background-color:  rgb(62, 62, 62);
+    color: white;
+    margin-bottom: 15px;
+    padding: 0px 30px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.content-educ {
+    padding: 0px 30px;
+}
+
+#grey-text{
+    color: lightslategray;
+    font-size: smaller;
+}
+
+.content-educ-2 {
+    margin-top: 10px;
+}
+
+
+/* B) Connections info 
+B1. connection-requests
+B2. your-connections
+*/
+
+.connections-info{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* B1. connection-requests */
+
+.connection-requests{
+    display: flex;
+    flex-direction: column;
+}
+
+.request-head{
+    display: flex;
+    background-color:rgb(62, 62, 62);
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+
+.num-connections{
+    height: 30px;
+    width: 30px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.request{
+    margin: 2px 0px;
+}
+
+.request-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.align-foto{
+    display: flex;
+    flex-grow: 0;
+}
+
+.foto{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+
+.align-names{
+    display: flex;
+    flex-grow: 2;
+}
+
+.align-icons{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.icons{
+    height:35px;
+    width: 35px;
+    margin: 0px 2px;
+}
+
+
+/* B2. your-connections */
+
+.your-connections{
+    margin-top: 20px;
+}
+
+.connections-head{
+    display: flex;
+    background-color:rgb(62, 62, 62);
+    color: white;
+    height: 40px;
+    align-items: center;
+}
+
+.num-connected{
+    height: 30px;
+    width: 60px;
+    background-color: lightslategray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.connected-people{
+    margin-bottom: 1px;
+}
+
+.info-person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.more-info{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-top: 3px solid lightgray;
+}
+
+.more-info >span {
+    margin-left: 10px;
+}
