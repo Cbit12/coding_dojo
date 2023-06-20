@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 1px dashed red;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    margin-top: 30px;
+    border: black solid 3px;
+    padding: 15px;
+}
+
+.like-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: black 3px solid;
+    width: 400px;
+    padding: 15px;
+    margin: 30px 100px 30px 50px;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+button{
+    width: 50px;
+    height: 25px;
+    background: yellow;
+    border: 2px black solid;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.Header{
+    background: black;
+    color: white;
+    padding: 0px 350px;
+    font-size: xx-large;
+}
+
+h1{
+    text-align: center;
+}
