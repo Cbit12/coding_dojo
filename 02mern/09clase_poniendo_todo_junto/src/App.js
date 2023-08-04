@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import CounterButton from './components/counterButton/counterButton.component';
-import PersonCard from './components/personCard/personCard/personCard.component';
+import PersonCard from './components/personCard/personCard.component';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
         age={45}
         haircolor="Black"
       />
-      <CounterButton/>
       <PersonCard
         firstName="John"
         lastName="Smith"
